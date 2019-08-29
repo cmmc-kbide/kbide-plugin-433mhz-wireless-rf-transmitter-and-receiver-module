@@ -34,7 +34,7 @@ Blockly.JavaScript['_433mhz_wireless_rf_receiver'] = function(block) {
 		RCSwitch MyRCSwitch = RCSwitch();
 	#END
 	#SETUP
-		MyRCSwitch.enableTransmit(${text_433mhz_wireless_rf_receiver_interrupt_pin});
+		MyRCSwitch.enableReceive(${text_433mhz_wireless_rf_receiver_interrupt_pin});
 	#END
 
 	if (MyRCSwitch.available()) {

@@ -18,7 +18,7 @@ Blockly.Blocks['_433mhz_wireless_rf_transmitter_send'] = {
     this.appendDummyInput()
         .appendField("TRANSMITTER");
     this.appendValueInput("433MHZ_WIRELESS_RF_TRANSMITTER_SEND_MESSAGE")
-        .setCheck(null)
+        .setCheck("Number")
         .appendField("SEND MESSAGE");
     this.setInputsInline(true);
     this.setPreviousStatement(true, null);
